@@ -2,7 +2,7 @@ import smtplib
 
 fromaddr = 'odanejackson12@gmail.com'
 
-toaddr = '4551747@digiceljm.com'
+toaddr = 'odanejackson12@gmail.com'
 
 message = """From: {} <{}>
 
