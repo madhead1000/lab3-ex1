@@ -1,8 +1,8 @@
 import smtplib
 
-fromaddr = 'IRS'
+fromaddr = 'odanejackson12@gmail.com'
 
-toaddr = '18764551747@Digitextjm.com'
+toaddr = 'jackson.odane@live.com'
 
 message = """From: {} <{}>
 
@@ -13,16 +13,11 @@ Subject: {}
 {}
 
 """
-fromname = "maffy"
-
-toname = "ODane",
-
-toaddr = "18764551747@Digitextjm.com"
-
-subject = "testing"
-
-msg = "this works"
-
+fromname="ODane"
+toname="Jackson"
+toaddr="odanejackson12@gmail.com"
+subject="testing"
+msg="This is a test of the mail function in python"
 messagetosend = message.format(
 
  fromname,
